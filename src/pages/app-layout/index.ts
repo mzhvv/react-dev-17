@@ -1,3 +1,3 @@
 // src/pages/app-layout/index.ts
 
-export * from './app-layout';
+export { AppLayout } from './app-layout';

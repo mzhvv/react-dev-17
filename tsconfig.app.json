@@ -21,7 +21,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Alias */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@package/*": ["./package/*"]
+    }
   },
-  "include": ["src"]
+  "include": ["src", "package"]
 }

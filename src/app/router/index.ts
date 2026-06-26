@@ -1,3 +1,3 @@
 // src/app/router/index.ts
 
-export * from './provider';
+export { Router } from './provider';

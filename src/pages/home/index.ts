@@ -1,3 +1,3 @@
 // src/pages/home/index.ts
 
-export * from './home';
+export { HomePage } from './home';
