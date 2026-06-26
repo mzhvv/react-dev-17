@@ -1,12 +1,12 @@
-// src/app.test.tsx
+// src/pages/app.test.tsx
 
 import { render, screen } from '@testing-library/react';
 
-import { App } from './app';
+import { HomePage } from './home';
 
 describe('App', () => {
   it('renders the heading', () => {
-    render(<App />);
+    render(<HomePage />);
 
     const heading = screen.getByRole('heading', { level: 1 });
     expect(heading).toBeInTheDocument();

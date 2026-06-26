@@ -1,14 +1,14 @@
-// src/main.tsx
+// src/app/main.tsx
 
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-import { App } from './app';
+import { Providers } from './providers';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Providers />
   </React.StrictMode>,
   document.getElementById('root')
 );
